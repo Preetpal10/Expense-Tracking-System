@@ -1,0 +1,65 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+#expenseList {
+    list-style: none;
+    padding: 0;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    background-color: red;
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
